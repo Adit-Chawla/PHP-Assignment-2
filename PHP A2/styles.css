@@ -1,0 +1,140 @@
+/* Basic styling for forms */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+form {
+    max-width: 18.75rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    border: 0.06rem solid #ccc;
+    background-color: #f9f9f9;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+input:hover {
+    border-color: #66b3ff;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+input:valid {
+    border-color: #28a745;
+}
+
+
+input:invalid {
+    border-color: #dc3545;
+}
+
+
+input, button {
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+legend {
+    font-weight: bold;
+}
+
+
+input::placeholder {
+    color: #aaa;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    color: #007bff;
+}
+
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Header styling */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
